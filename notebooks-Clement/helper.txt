@@ -1,0 +1,27 @@
+?? "d'" | "de" | "d'un" | "d'une"
+
+?? "dans" | "pour" | "par"
+
+Article -> "l'" | "le" | "la" | "un" | "une"
+
+Patient -> "le patient" | "la patiente"| "le souffrant" | "la souffrante"| "le sujet"
+
+Termin -> |"_s" |"_e" |"_es"
+
+Pronoun -> "il" | "elle"
+
+Avec -> "à" | "avec"
+
+Deter -> "tout" | "tous" | "toute" | "toutes"
+
+Member -> "parent" | "parents" | "père" | "beau-père" | "mère" |"belle-mère" | "papa" | "maman" |"fils" | "beau-fils" | "garçon" | "fille" | "belle-fille" | "filles" | "frère"| "frères" |"soeur" |"soeurs" |"sœur" |"sœurs" | "fratrie" | "oncle" | "tonton"| "oncles" |"tante" |"tata"  |"tantes" |"grand-mère" | "grand-père" |"cousin" |"cousins" |"famille" |"colocataire" | "colocataires" | "voisin" | "voisins"  
+
+Month -> "janvier"|"février"|"mars"|"avril"|"mai"|"juin" |"juillet"|"août"|"septembre"|"octobre"|"novembre"|"décembre"
+
+Seasons -> "le printemps"|"l'été"|"l'automne"|"l'hiver" 
+
+Aucun -> "aucun" | "aucune" | "nul" | "nulle" | "sans"
+
+Word -> "\\w+"
+
+Depuis -> "depuis" | "dès" | "à partir de"

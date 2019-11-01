@@ -1,0 +1,36 @@
+absence de|forward|trigger|negated|5
+antécédents|forward|trigger|historical|6
+aucune|forward|trigger|negated|5
+aucun|forward|trigger|negated|5
+dès|both|termination|conditional|2
+en contradiction avec|forward|trigger|negated|4
+familiale|forward|trigger|nonpatient|2
+familial|forward|trigger|nonpatient|4
+familiaux|forward|trigger|nonpatient|4
+famille|forward|trigger|nonpatient|5
+frere|forward|trigger|nonpatient|5
+frère|forward|trigger|nonpatient|5
+histoire|forward|trigger|historical|6
+libre de|forward|trigger|negated|2
+maman|forward|trigger|nonpatient|4
+manque de|forward|trigger|negated|5
+maternelle abondante|both|trigger|nonpatient|30
+ni de|forward|trigger|negated|5
+ni|forward|trigger|negated|30
+non|forward|trigger|negated|1
+néanmoins|both|termination|negated|5
+pas d'|forward|trigger|negated|4
+pas de preuve de|forward|trigger|negated|5
+pas de preuves de|forward|trigger|negated|5
+pas de|forward|trigger|negated|4
+pas le moindre|forward|trigger|negated|2
+pas été diagnostiquées|backward|trigger|negated|4
+pas|forward|trigger|negated|2
+paternel|forward|trigger|nonpatient|2
+pere|forward|trigger|nonpatient|30
+père|forward|trigger|nonpatient|4
+révéle pas|forward|trigger|negated|2
+sans indication de|forward|trigger|negated|5
+sans signe|forward|trigger|negated|30
+sans|forward|trigger|negated|1
+tante|forward|trigger|nonpatient|30
