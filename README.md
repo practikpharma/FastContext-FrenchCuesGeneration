@@ -25,7 +25,7 @@ This notebook takes the `./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx` as
 
 **4_SynonymTableMerger.ipynb**  
 
-This notebook takes two files as input:  `./excels/1_Phase3_TranslationTable.xlsx` and `./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx` and update the second excel with the available synonyms in the first one.
+This notebook takes two files as input:  `./excels/1_Phase3_TranslationTable.xlsx` and `./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx` and update the latter excel with the available synonyms in the former one.
 
 
 **5_CFG_Maker.ipynb**  
@@ -38,7 +38,7 @@ This notebook takes all the CFG rules in `./notebooks` and convert them to a sin
 
 **7_ResultAnalyser.ipynb**  
 
-This file takes outcome of the model on `HEGP` and/or `CepiDC` dataset and provides the Precision, Recall and F1 measures as output.  
+This file takes outcome of FastContext rules on `HEGP` and/or `CepiDC` datasets as inputs and provides the Precision, Recall and F1 measures as outputs for each dataset.
 
 #### Authors 
 Mehdi Mirzapour (@mehdi-mirzapour) with supervision of Clement Jonquet (@jonquet)
