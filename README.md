@@ -5,7 +5,13 @@ Created in 2019 for the semi-automation of the generation of the French lexical 
 #### Description
 The repository contains the following Jupyter Notebooks:  
 
-1_Initiator.ipynb
+
+
+1_Initiator.ipynb   
+
+This notebook takes the `./excels/0_Phase3_LexicalCluesENFR.xlsx` as input which is the English version of FastContext with seed translated French counterparts. The outcome of this notebook is the `./excels/1_Phase3_TranslationTable.xlsx` which is enriched information such as POS, the number of occurence of French rules, the words candidate for synonyms, etc.  
+
+
 2_SynonymExtraction.ipynb
 3.1_SynonymVoting.ipynb
 3.2_SynonymVoting.ipynb
@@ -14,6 +20,22 @@ The repository contains the following Jupyter Notebooks:
 5_CFG_Maker.ipynb
 6_CFG2Rule.ipynb
 7_ResultAnalyser.ipynb
+
+
+
+./excels/0_Phase3_LexicalCluesENFR.xlsx
+./excels/0_Phase3_LexicalCluesENFR_Grouping_CJ.xlsx
+./excels/1_Phase3_TranslationTable.xlsx
+./excels/2_Phase3_Test.xlsx
+./excels/2_Phase3_Word_Sense_Extraction.xlsx
+./excels/2_Phase3_Word_Sense_Voting_CJ-15-07-19.xlsx
+./excels/3_Phase3_Word_Sense_Voting.xlsx
+./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx
+./excels/3_Phase3_Word_Sense_Voting_with_Occurances.xlsx
+./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2.xlsx
+./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx
+./excels/4_Phase3_TranslationTable.xlsx
+
 
 
 #### Authors 
