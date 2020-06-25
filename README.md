@@ -25,30 +25,20 @@ This notebook takes the `./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx` as
 
 **4_SynonymTableMerger.ipynb**  
 
-**5.1_CFG Renaming.ipynb**  
+This notebook takes two files as input:  `./excels/1_Phase3_TranslationTable.xlsx` and `./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx` and update the second excel with the available synonyms in the first one.
+
 
 **5_CFG_Maker.ipynb**  
 
+This notebook takes the `./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx` as input and generates automatically all the CFG ruls in `./notebooks` folders. These notebooks can be validated.
+
 **6_CFG2Rule.ipynb**  
+
+This notebook takes all the CFG rules in `./notebooks` and convert them to a single file `List_of_Rules.xls` containg all of the rules.
 
 **7_ResultAnalyser.ipynb**  
 
-
-
-./excels/0_Phase3_LexicalCluesENFR.xlsx
-./excels/0_Phase3_LexicalCluesENFR_Grouping_CJ.xlsx
-./excels/1_Phase3_TranslationTable.xlsx
-./excels/2_Phase3_Test.xlsx
-./excels/2_Phase3_Word_Sense_Extraction.xlsx
-./excels/2_Phase3_Word_Sense_Voting_CJ-15-07-19.xlsx
-./excels/3_Phase3_Word_Sense_Voting.xlsx
-./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx
-./excels/3_Phase3_Word_Sense_Voting_with_Occurances.xlsx
-./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2.xlsx
-./excels/3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx
-./excels/4_Phase3_TranslationTable.xlsx
-
-
+This file takes outcome of the model on `HEGP` and/or `CepiDC` dataset and provides the Precision, Recall and F1 measures as output.  
 
 #### Authors 
 Mehdi Mirzapour (@mehdi-mirzapour) with supervision of Clement Jonquet (@jonquet)
