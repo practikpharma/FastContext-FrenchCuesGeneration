@@ -17,7 +17,11 @@ This notebook takes the `./excels/1_Phase3_TranslationTable.xlsx` as input which
 
 **3.1_SynonymVoting.ipynb**  
 
+This notebook takes the `./excels/2_Phase3_Word_Sense_Extraction.xlsx` as input which is synonyms for seed French words. The outcome of this notebook is the `./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx` which is top_20 sorted synomyms after applying some weights on different sources based on their reliabilities. The validator can eliminate the ones that are not proper.
+
 **3.2_SynonymVoting.ipynb**  
+
+This notebook takes the `./excels/3_Phase3_Word_Sense_Voting_New_Format.xlsx` as input which includes validated synonyms for seed words. The outcome of this notebook is the `3_Phase3_Word_Sense_Voting_with_Occurances_curated_CJ2_Cleaned.xlsx` which is final list of synomyms for each seed word. 
 
 **4_SynonymTableMerger.ipynb**  
 
