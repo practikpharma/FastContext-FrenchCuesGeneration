@@ -13,7 +13,7 @@ This notebook takes the `./excels/0_Phase3_LexicalCluesENFR.xlsx` as input which
 
 **2_SynonymExtraction.ipynb**  
 
-This notebook takes the `./excels/1_Phase3_TranslationTable.xlsx` as input which is an enriched French version of FastContext rules. The outcome of this notebook is the `./excels/2_Phase3_Word_Sense_Extraction.xlsx` which is the synomym extraction from differnet sources such as "JDM_Sense","JDM","WordNet","Cnrtl","Synonymo","Cisco" and "DicSyn_Sense".  
+This notebook takes the `./excels/1_Phase3_TranslationTable.xlsx` as input which is an enriched French version of FastContext rules. The outcome of this notebook is the `./excels/2_Phase3_Word_Sense_Extraction.xlsx` which is synomyms extraction for French seed words from differnet sources such as JDM French Lexical Semantics, French WordNet, Cnrtl, Synonymo, Cisco and DicSyn.  
 
 **3.1_SynonymVoting.ipynb**  
 
