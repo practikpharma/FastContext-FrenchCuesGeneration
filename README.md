@@ -38,7 +38,7 @@ This notebook takes all the CFG rules in `./notebooks` and convert them to a sin
 
 **7_ResultAnalyser.ipynb**  
 
-This file takes outcome of FastContext rules on `HEGP` and/or `CepiDC` datasets as inputs and provides the Precision, Recall and F1 measures as outputs for each dataset.
+This notebook takes outcomes of applied FastContext rules on `HEGP` and/or `CepiDC` datasets and provides the Precision, Recall and F1 measures as outputs for each dataset.
 
 #### Authors 
 Mehdi Mirzapour (@mehdi-mirzapour) with supervision of Clement Jonquet (@jonquet)
